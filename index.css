@@ -1,25 +1,30 @@
 body{
-background-color: lightslategrey;
+background-color: antiquewhite;
 }
 /* this is the paragraph style code*/
 p{
-color: lightsteelblue;
-background-color: rgb( 163, 140, 192);
-text-align: left;
-outline-color: aliceblue;
+color: black;
+background-color: rgb(230,230,250);
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-color: darkolivegreen;
+border: double, 5px;
 outline-style: ridge;
 text-shadow: 1px 1px 2px lightslategrey;
 padding-right:10px;
 padding-left:10px;
 padding-bottom: 10px;
 padding-top:10px;
+width: 50%;
+height: 50%;
 }
 /* this is the list item style code*/
 li{
 color: lightsteelblue;
-background-color: rgb( 163, 140, 192);
+background-color: rgb(230,230,250);
 font-family: sans-serif;	
-outline-color: #F0F8FF;
+border-color: darkolivegreen;
+border: 5px double;
 outline-style: ridge;
 text-shadow: 1px 1px 2px lightslategrey;
 padding-right:10px;
@@ -37,7 +42,7 @@ font: sans-serif;
 }
 
 .body2{
-font-color: lightslategrey;
+color: lightslategrey;
 }
 table{
 	border: solid 1px;
@@ -46,17 +51,30 @@ table{
 }
 td{
 	border: solid 1px;
-	border-color: black;
-	color: lightslategrey;
-	background-color: rgb( 163, 140, 192);
+	border-color: darkolivegreen;
+	color: black;
+	background-color: rgb(230,230,250);
 }
 th{
 	border: solid 3px;
-	background-color: rgb( 163, 140, 192);
+	background-color: rgb(230,230,250);
 }
 
 img{
 	height: 30%;
 	width: 30%;
 }
-
+a{
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(floralwhite,lavender);
+	border-radius: 0px 25px 0px 25px;
+	color: black;
+	border: 10px double ;
+	margin-left: 30%;
+	border-color: darkolivegreen;
+}
+a-hover{
+	background: radial-gradient(floralwhite,lavenderblush);
+	color:grey;
+}
