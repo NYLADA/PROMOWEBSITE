@@ -71,13 +71,6 @@ img{
 a{
 	/*width: 100px;
 	height: 100px;*/
-	
-}
-a-hover{
-	background: radial-gradient(floralwhite,pink );
-	color:grey;
-}
-.menu{
 	background: radial-gradient(floralwhite,thistle);
 	border-radius: 0px 25px 0px 25px;
 	color: black;
@@ -88,3 +81,11 @@ a-hover{
 	padding-bottom: 10px;
 	padding-top:10px;
 }
+	
+}
+a-hover{
+	background: radial-gradient(floralwhite,pink );
+	color:grey;
+}
+.menu{
+	
