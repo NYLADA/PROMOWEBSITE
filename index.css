@@ -80,8 +80,7 @@ img{
 	width: 30%;
 }
 a{
-	/*width: 100px;
-	height: 100px;*/
+	
 	background: radial-gradient(floralwhite,thistle);
 	border-radius: 0px 25px 0px 25px;
 	color: rgb(71, 71, 71);;
@@ -94,6 +93,7 @@ a{
 	margin: auto;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	text-align-last: center;
 }
 	
 
