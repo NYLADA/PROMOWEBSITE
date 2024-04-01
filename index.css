@@ -69,7 +69,12 @@ th{
 	background-color: rgb(230,230,250);
 	color: rgb(71, 71, 71);
 }
-
+.t1{
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	padding-top:10px;
+}
 img{
 	height: 30%;
 	width: 30%;
