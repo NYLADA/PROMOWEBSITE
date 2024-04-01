@@ -69,7 +69,7 @@ img{
 a{
 	/*width: 100px;
 	height: 100px;*/
-	background: radial-gradient(floralwhite,lavender);
+	background: radial-gradient(floralwhite,thistle);
 	border-radius: 0px 25px 0px 25px;
 	color: black;
 	border: 10px double ;
@@ -80,6 +80,6 @@ a{
 	padding-top:10px;
 }
 a-hover{
-	background: radial-gradient(floralwhite,lavenderblush);
+	background: radial-gradient(floralwhite,pink );
 	color:grey;
 }
