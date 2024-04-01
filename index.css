@@ -97,7 +97,7 @@ a{
 }
 	
 
-a-hover{
+a:hover{
 	background: radial-gradient(floralwhite,pink );
 	color:grey;
 }
