@@ -48,18 +48,19 @@ font: sans-serif;
 color: lightslategrey;
 }
 table{
-	border: solid 1px;
+	border: 1px double ;
+	border-color: darkolivegreen;
 	margin: auto; /* automatically centers content on the screen or whatever it is inside of.
 								ex: a div*/
 }
 td{
-	border: solid 1px;
+	border: 1px double ;
 	border-color: darkolivegreen;
 	color: black;
 	background-color: rgb(230,230,250);
 }
 th{
-	border: solid 3px;
+	border: 3px double ;
 	background-color: rgb(230,230,250);
 }
 
