@@ -44,6 +44,33 @@
            
 		
 	</div>
+    <h2> What About You? </h2>
+    <form action="mailto:lowkey.fun333@gmail.com"> <!-- sends content to your email -->
+			<br>
+			<br>
+			<label for="user_fname"> First Name </label>
+			<input type="text" id="user_fname" name="fname"> <!-- ids are good for mistakes in the form and such. good for organization-->
+			<br>
+			<label for="user_lname"> Last Name </label> <!-- by switching the order, you can change the side the label is on-->
+			<input type="text" id="user_lname" name="lname"> 
+			<br>
+			<label for="fc"> Favorite Color </label>
+			<input type="text"  id="fc" name="favorite_color">
+			<br>
+			<label for="fs"> Favorite Song </label>
+			<input type="text"  id="fs" name="Favorite_song">
+			<br>
+			<label for="ul_file"> Favorite Musical Score (Sheet Music) </label>
+			<input type="file" accept=".pdf, .docx, .doc , .txt" id="ul_file" name="u_file"> <!-- accept for different forms of documents to helpprevent agaisnt malware. not very effective but okay-->
+			<br>
+			<textarea id="site_comment" name="link_comment" rows="4" cols="6">  </textarea> <!-- works in rows a columns and predates forms so that why the syntax is different-->
+			<br>
+			<label for="datet"> Date and Time </label>
+			<input type="datetime-local" id="datet" name="date_time"> 
+			<br>
+			<input type="submit" id="sbmt" name="submit_form" value="Submit"> <!-- value changes the word in the button -->
+		</form>
+
 	<div class="footer">
 		<p> Below is a link to my Youtube Channel</p>
 
