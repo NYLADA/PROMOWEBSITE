@@ -128,4 +128,5 @@ h2{
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
 	float:center;
 	margin:auto;
+	text-align-last: center;
 }
