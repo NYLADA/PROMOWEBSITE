@@ -103,9 +103,8 @@ a:hover{
 	background: radial-gradient(floralwhite,pink );
 	color:grey;
 }
-/*.menu{
 
-}*/
+
 h2{
 	background: rgb(230,230,250);
 	border-radius: 10px 10px 10px 10px;
@@ -128,8 +127,15 @@ h2{
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
 	float:center;
 	margin:auto;
+<<<<<<< HEAD
+
+=======
 	text-align-last: center;
 	width:30%;
 	height:25%;
 	
+>>>>>>> cce6289e77f07a8e94d6f2bf85499fa812640248
+}
+.menu{
+	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
 }
