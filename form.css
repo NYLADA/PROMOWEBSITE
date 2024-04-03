@@ -1,0 +1,15 @@
+.form_bg{
+	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
+	width:30%;
+	height:25%;
+	text-align-last: center;
+	float:center;
+	margin:auto;
+}
+body{
+	background-color: thistle;
+}
+.site_comment{
+	width:30px;
+	height:auto;
+}

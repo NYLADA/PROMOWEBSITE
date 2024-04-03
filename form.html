@@ -1,0 +1,45 @@
+<!doctype html>
+
+<head>
+<!-- FORMS! -->
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<div class="form_bg">
+		<form action="mailto:randomemail@gmail.com"> <!-- sends content to your email -->
+		<!-- <form action="program_script.php"> to possibly make the info go to a file -->
+		<!-- <form action="experience.html"> when you submit the file it send you to the page, but the page wont be able to do anything with the info -->
+			<br>
+			<br>
+			<label for="user_fname"> First Name </label>
+			<input type="text" id="user_fname" name="fname"> <!-- ids are good for mistakes in the form and such. good for organization-->
+			<br>
+			<label for="user_lname"> Last Name </label> <!-- by switching the order, you can change the side the label is on-->
+			<input type="text" id="user_lname" name="lname"> 
+			<br>
+			<label for="ccn"> Credit Card # </label><!-- credit card number-->
+			<input type="text" maxlength="16" id="ccn" name="credit_card_number">
+			<br>
+			<label for="cvv"> CVV Number </label><!-- credit card number-->
+			<input type="text" maxlength="3" id="cvv" name="card_verification_value">
+			<br>
+			<label for="ul_file">(PDF Only) Resume: </label>
+			<input type="file" accept=".pdf, .docx, .doc , .txt" id="ul_file" name="u_file"> <!-- accept for diffferent forms of documents to helpprevent agaisnt malware. not very effective but okay-->
+			<br>
+			<textarea id="site_comment" name="link_comment" rows="4" cols="6">  </textarea> <!-- works in rows a columns and predates forms so that why the syntax is different-->
+			<br>
+			<label for="datet"> Date and Time </label>
+			<input type="datetime-local" id="datet" name="date_time"> 
+			<br>
+			<input type="submit" id="sbmt" name="submit_form" value="Submit"> <!-- value changes the word in the button -->
+		</form>
+
+	</div>
+
+
+
+
+
+</body>
+</html>
