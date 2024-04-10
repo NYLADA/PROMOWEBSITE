@@ -162,3 +162,28 @@ h2{
 	width: 50%;
 	height: 50%;
 }
+h3{
+	background: rgb(230,230,250);
+	border-radius: 10px 10px 10px 10px;
+	color: rgb(71, 71, 71);
+	border: 12px double ;
+	border-color: darkolivegreen;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	padding-top:10px;
+	text-align-last: center;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 40%;
+	height: 50%;
+}
+form{
+	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
+	width:30%;
+	height:50%;
+	text-align-last: center;
+	float:center;
+	margin:auto;
+}
