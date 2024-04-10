@@ -112,12 +112,12 @@ a:active{
 	color:grey;
 }
 a:focus{
-	background: radial-gradient(floralwhite,rgb(212, 165, 9) );
+	background: radial-gradient(floralwhite,darkolivegreen );
 	color:grey;
 }
 a:visited{
 	background: radial-gradient(floralwhite,rgb(124, 68, 124) );
-	color:grey;
+	color:rgb(228, 217, 217);
 }
 
 a:visited:hover{
@@ -159,6 +159,6 @@ h2{
 	padding-bottom: 10px;
 	padding-top:10px;
 	margin: auto;
-	width: 25%;
+	width: 50%;
 	height: 50%;
 }
