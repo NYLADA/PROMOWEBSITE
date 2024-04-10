@@ -195,6 +195,18 @@ form{
 	color: rgb(148, 161, 126);
 	font-size: 35px;
 }
+.play_btn:active{
+	color: lightblue ;
+	
+}
+.play_btn:focus{
+	color: darkolivegreen ;
+	
+}
+.play_btn:visited{
+	color: rgb(124, 68, 124) ;
+	
+}
 .player{
 	min-height: 200px;
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
