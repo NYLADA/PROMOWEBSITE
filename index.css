@@ -187,3 +187,34 @@ form{
 	float:center;
 	margin:auto;
 }
+.play_btn{
+	color:darkolivegreen;
+	font-size: 40px;
+}
+.play_btn:hover{
+	color: rgb(148, 161, 126);
+	font-size: 35px;
+}
+.player{
+	min-height: 200px;
+	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
+	text-align-last: center;
+	float:center;
+	margin:auto;
+}
+.pause_btn{
+	color:darkolivegreen;
+	font-size: 40px;
+}
+.pause_btn:hover{
+	color: rgb(148, 161, 126);
+	font-size: 35px;
+}
+.noise_btn{
+	color:darkolivegreen;
+	font-size: 40px;
+}
+.noise_btn:hover{
+	color: rgb(148, 161, 126);
+	font-size: 35px;
+}
