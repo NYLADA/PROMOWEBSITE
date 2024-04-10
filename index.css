@@ -79,6 +79,9 @@ img{
 	height: 30%;
 	width: 30%;
 }
+img:focus{
+	box-shadow: #0f360bcc;
+}
 a{
 	
 	background: radial-gradient(floralwhite,thistle);
@@ -96,6 +99,7 @@ a{
 	text-align-last: center;
 	width: 25%;
 	height: 50%;
+	text-decoration: none;
 }
 	
 
@@ -103,7 +107,23 @@ a:hover{
 	background: radial-gradient(floralwhite,pink );
 	color:grey;
 }
-
+a:active{
+	background: radial-gradient(floralwhite,lightblue );
+	color:grey;
+}
+a:focus{
+	background: radial-gradient(floralwhite,rgb(212, 165, 9) );
+	color:grey;
+}
+a:visited{
+	background: radial-gradient(floralwhite,rgb(124, 68, 124) );
+	color:grey;
+}
+}
+a:visited:hover{
+	background: radial-gradient(floralwhite,pink );
+	color:grey;
+}
 
 h2{
 	background: rgb(230,230,250);
@@ -134,4 +154,11 @@ h2{
 }
 .menu{
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	padding-top:10px;
+	margin: auto;
+	width: 25%;
+	height: 50%;
 }
