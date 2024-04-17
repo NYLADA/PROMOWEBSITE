@@ -104,24 +104,26 @@ a{
 	
 
 a:hover{
-	background: radial-gradient(floralwhite,pink );
+	background: radial-gradient(floralwhite,rgb(172, 83, 98) );
 	color:grey;
 }
 a:active{
-	background: radial-gradient(floralwhite,lightblue );
+	background: radial-gradient(floralwhite,rgb(74, 117, 131) );
 	color:grey;
 }
 a:focus{
 	background: radial-gradient(floralwhite,darkolivegreen );
 	color:grey;
+	
 }
 a:visited{
 	background: radial-gradient(floralwhite,rgb(124, 68, 124) );
-	color:rgb(228, 217, 217);
+	color:rgb(85, 60, 102);
+	transition: color 2s;
 }
 
 a:visited:hover{
-	background: radial-gradient(floralwhite,pink );
+	background: radial-gradient(floralwhite,rgb(173, 58, 77) );
 	color:grey;
 }
 
@@ -151,6 +153,38 @@ h2{
 	width:30%;
 	height:25%;
 	
+}
+.form_bg:hover{
+	background-color:#DEB887CC; /* the CC is for transparancy of the backgorund color!!!!*/
+	float:center;
+	margin:auto;
+	text-align-last: center;
+	width:30%;
+	height:25%;
+	animation: five_color 3s linear infinite;
+	
+}
+@keyframes five_color {
+	0%{
+		background-color: rgb(41, 84, 134);
+	}
+	20%{
+		background-color:rgb(25, 82, 29);
+	}
+	40%{
+		background-color: rgb(128, 128, 53);
+	}
+	60%{
+		background-color: rgb(112, 61, 70);
+	}
+	80%{
+		background-color: rgb(69, 30, 87);
+	}
+	100%{
+		background-color: rgb(17, 56, 105);
+	}
+
+
 }
 .menu{
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
