@@ -224,6 +224,7 @@ form{
 }
 .play_btn{
 	color:darkolivegreen;
+	transition: color 3s;
 	font-size: 40px;
 }
 .play_btn:hover{
@@ -261,6 +262,7 @@ form{
 }
 .pause_btn{
 	color:darkolivegreen;
+	transition: color 3s;
 	font-size: 40px;
 }
 .pause_btn:hover{
@@ -269,6 +271,7 @@ form{
 }
 .noise_btn{
 	color:darkolivegreen;
+	transition: color 3s;
 	font-size: 40px;
 }
 .noise_btn:hover{
@@ -277,4 +280,14 @@ form{
 }
 .vert_slider {
 	transform: rotate(270deg);
+}
+
+.h_img {
+	width: 200px;
+	transition: width 5s ease-out;
+}
+
+.h_img:hover {
+	transform: scale(.9);
+	width:190px;
 }
