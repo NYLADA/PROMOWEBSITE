@@ -197,28 +197,7 @@ h2{
 	
 }
 
-@keyframes five_color {
-	0%{
-		background-color: rgb(41, 84, 134);
-	}
-	20%{
-		background-color:rgb(25, 82, 29);
-	}
-	40%{
-		background-color: rgb(128, 128, 53);
-	}
-	60%{
-		background-color: rgb(112, 61, 70);
-	}
-	80%{
-		background-color: rgb(69, 30, 87);
-	}
-	100%{
-		background-color: rgb(17, 56, 105);
-	}
 
-
-}
 .menu{
 	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
 	padding-right:10px;
@@ -342,4 +321,26 @@ form{
 	/*background-color: purple;*/
 	animation: five_color 3s linear infinite;
 	
+}
+@keyframes five_color {
+	0%{
+		background-color: rgb(41, 84, 134);
+	}
+	20%{
+		background-color:rgb(25, 82, 29);
+	}
+	40%{
+		background-color: rgb(128, 128, 53);
+	}
+	60%{
+		background-color: rgb(112, 61, 70);
+	}
+	80%{
+		background-color: rgb(69, 30, 87);
+	}
+	100%{
+		background-color: rgb(17, 56, 105);
+	}
+
+
 }
