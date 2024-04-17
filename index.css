@@ -122,19 +122,7 @@ a{
 }
 
 
-.youtube:hover{
-	animation: five_color 3s linear infinite;
-	
-}
-.youtube:active{
-	background: radial-gradient(floralwhite,rgb(74, 117, 131) );
-	color:grey;
-}
-.youtube:focus{
-	background: radial-gradient(floralwhite,darkolivegreen );
-	color:grey;
-	
-}
+
 a:hover{
 	background: radial-gradient(floralwhite,rgb(172, 83, 98) );
 	color:grey;
@@ -158,7 +146,19 @@ a:visited:hover{
 	background: radial-gradient(floralwhite,rgb(173, 58, 77) );
 	color:grey;
 }
-
+.youtube:hover{
+	animation: five_color 3s linear infinite;
+	
+}
+.youtube:active{
+	background: radial-gradient(floralwhite,rgb(74, 117, 131) );
+	color:grey;
+}
+.youtube:focus{
+	background: radial-gradient(floralwhite,darkolivegreen );
+	color:grey;
+	
+}
 h2{
 	background: rgb(230,230,250);
 	border-radius: 10px 10px 10px 10px;
