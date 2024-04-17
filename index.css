@@ -102,7 +102,39 @@ a{
 	text-decoration: none;
 }
 	
+.youtube{
+	background: radial-gradient(floralwhite,thistle);
+	border-radius: 0px 25px 0px 25px;
+	color: rgb(71, 71, 71);;
+	border: 10px double ;
+	border-color: darkolivegreen;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	padding-top:10px;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align-last: center;
+	width: 40%;
+	height: 50%;
+	text-decoration: none;
+}
 
+
+.youtube:hover{
+	animation: five_color 3s linear infinite;
+	
+}
+.youtube:active{
+	background: radial-gradient(floralwhite,rgb(74, 117, 131) );
+	color:grey;
+}
+.youtube:focus{
+	background: radial-gradient(floralwhite,darkolivegreen );
+	color:grey;
+	
+}
 a:hover{
 	background: radial-gradient(floralwhite,rgb(172, 83, 98) );
 	color:grey;
