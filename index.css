@@ -164,6 +164,7 @@ h2{
 	animation: five_color 3s linear infinite;
 	
 }
+
 @keyframes five_color {
 	0%{
 		background-color: rgb(41, 84, 134);
@@ -273,4 +274,7 @@ form{
 .noise_btn:hover{
 	color: rgb(148, 161, 126);
 	font-size: 35px;
+}
+.vert_slider {
+	transform: rotate(270deg);
 }
