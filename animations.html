@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+<!-- ANIMATIONS! -->
+<link rel="stylesheet" type="text/css" href="animations.css">
+</head>
+<body>
+<div class="form_bg">
+		<form action="mailto:randomemail@gmail.com"> <!-- sends content to your email -->
+		<!-- <form action="program_script.php"> to possibly make the info go to a file -->
+		<!-- <form action="experience.html"> when you submit the file it send you to the page, but the page wont be able to do anything with the info -->
+			<br>
+			<br>
+			<label for="user_fname"> First Name </label>
+			<input type="text" id="user_fname" name="fname"> <!-- ids are good for mistakes in the form and such. good for organization-->
+			<br>
+			<label for="user_lname"> Last Name </label> <!-- by switching the order, you can change the side the label is on-->
+			<input type="text" id="user_lname" name="lname"> 
+			<br>
+			<label for="ccn"> Credit Card # </label><!-- credit card number-->
+			<input type="text" maxlength="16" id="ccn" name="credit_card_number">
+			<br>
+			<label for="cvv"> CVV Number </label><!-- credit card number-->
+			<input type="text" maxlength="3" id="cvv" name="card_verification_value">
+			<br>
+			<label for="ul_file">(PDF Only) Resume: </label>
+			<input type="file" accept=".pdf, .docx, .doc , .txt" id="ul_file" name="u_file"> <!-- accept for diffferent forms of documents to helpprevent agaisnt malware. not very effective but okay-->
+			<br>
+			<textarea id="site_comment" name="link_comment" rows="4" cols="6">  </textarea> <!-- works in rows a columns and predates forms so that why the syntax is different-->
+			<br>
+			<label for="datet"> Date and Time </label>
+			<input type="datetime-local" id="datet" name="date_time"> 
+			<br>
+			<p> What is your favorite <a href="https://en.wikipedia.org/wiki/Apple_Inc.">fruit?</a> </p>
+			<label for="ff_apple">Apple</label> <!-- could use 'img src=""' to describe as well-->
+			<input type="radio" id="ff_apple" name="fav_fruit">
+			<label for="ff_orange" >Orange</label>
+			<input type="radio" id="ff_orange" name="fav_fruit">
+			<label for="ff_banana" >Banana</label>
+			<input type="radio" id="ff_banana" name="fav_fruit">
+			<label for="ff_grape" >Grape</label>
+			<input type="radio" id="ff_grape" name="fav_fruit">
+			<br>
+			<p> What is your favorite day of the week?</p>
+			<label for="ff_mon" >Monday</label> 
+			<input type="radio" id="ff_mon" name="fav_day">
+			<label for="ff_tues" >Tuesday</label>
+			<input type="radio" id="ff_tues" name="fav_day">
+			<label for="ff_Weda" >Wednesday</label>
+			<input type="radio" id="ff_wed" name="fav_day">
+			<label for="ff_thurs" >Thursday</label>
+			<input type="radio" id="ff_thurs" name="fav_day">
+			<br>
+			<p> What is your favorite DAYS of the week?</p>
+			<label for="ff_mon" >Monday</label> 
+			<input type="checkbox" id="ff_mon" name="fav_day">
+			<label for="ff_tues" >Tuesday</label>
+			<input type="checkbox" id="ff_tues" name="fav_day">
+			<label for="ff_Weda" >Wednesday</label>
+			<input type="checkbox" id="ff_wed" name="fav_day">
+			<label for="ff_thurs" >Thursday</label>
+			<input type="checkbox" id="ff_thurs" name="fav_day">
+			<br>
+			<input type="submit" id="sbmt" name="submit_form" value="Submit"> <!-- value changes the word in the button -->
+		</form>
+
+	</div>
+		<!-- fontawesome.com for importing emojis--->
+		 
+		<div class="player">
+			<div class="player_window">
+				<img class="h_img" src="C:\Users\X00405508\Desktop\apple.png"><br>
+			</div>
+			<div class="player_btns">
+				<input type="range"><br>
+				<span class="play_btn">▶</span> <span class="pause_btn">⏸</span> <!-- span applies a class without other restrictions-->
+			</div>
+		</div>
+		
+		<div class="link_tr">
+			
+		</div>
+		<div class="circle_b"><a href="forms.html"> Contact Page</a></div>
+		
+</body>
+
+</hmtl>

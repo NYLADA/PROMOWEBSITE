@@ -1,0 +1,135 @@
+.form_bg{
+	background-color:#FFFFFFCC; /* the CC is for transparancy of the backgorund color!!!!*/
+	width:30%;
+	height:25%;
+	text-align-last: center;
+	float:center;
+	margin:auto;
+}
+body{
+	background-color: thistle;
+}
+.site_comment{
+	width:30px;
+	height:auto;
+
+}
+
+a{
+	color: blue;
+}
+a:hover{
+	color:pink;
+}
+a:active{
+	color:red;
+}
+a:visited{
+	color:purple;
+	
+}
+a:visited:hover{
+	color: pink;
+}
+a:visited:active{
+	color:red;
+}
+a:focus {
+	color:orange; /* focus is used for like inputs like for the form*/
+}
+.play_btn {
+	color: green;
+	font-size: 40px;
+}
+
+.play_btn:hover {
+	color: black;
+	transition: color 3s;
+	font-size: 40px;
+}
+
+.pause_btn {
+	color: gray;
+	transition: color 3s;
+	font-size: 50px;
+}
+
+.pause_btn:hover {
+	color: black;
+	font-size: 50px;
+}
+
+.h_img {
+	width: 200px;
+	transition: width 5s ease-out;
+}
+
+.h_img:hover {
+	transform: scale(.9);
+	width:190px;
+}
+
+.player {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 200px;
+	width: 200px;
+	background-color: #DDDDDDDD;
+	text-align: center;
+}
+
+.vert_slider {
+	transform: rotate(270deg);
+}
+
+.circle_b{
+	width: 100px;
+	height: 100px;
+	transition: background-color 2s, width 2s, height 2s;
+	border: 5px solid black;
+	border-radius: 50%;
+	background-color: red;
+	float:center;
+	
+}
+
+.circle_b:hover{
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	border-radius: 50%;
+	/*background-color: purple;*/
+	animation: five_color 3s linear infinite;
+	
+}
+/*@keyframes five_color {
+		from{
+			background-color: red;
+		}
+		to{
+			background-color: orange;
+		}
+	
+	
+}*/
+@keyframes five_color {
+		0%{
+			background-color: red;
+		}
+		20%{
+			background-color:orange;
+		}
+		40%{
+			background-color: yellow;
+		}
+		60%{
+			background-color: pink;
+		}
+		80%{
+			background-color: orange;
+		}
+		100%{
+			background-color: red;
+		}
+	
+	
