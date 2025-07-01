@@ -1,5 +1,5 @@
 body{
-background-color: antiquewhite;
+background-color: rgb(9, 147, 189);
 }
 /* this is the paragraph style code*/
 p{
@@ -7,7 +7,7 @@ color: rgb(71, 71, 71);;
 background-color: rgb(230,230,250);
 text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-border: 5px double;
+border: 5px;
 border-color: darkolivegreen;
 text-shadow: 1px 1px 2px lightslategrey;
 padding-right:10px;
@@ -26,7 +26,7 @@ color: rgb(71, 71, 71);
 background-color: rgb(230,230,250);
 font-family: sans-serif;	
 border-color: darkolivegreen;
-border: 5px double;
+border: 5px;
 outline-style: ridge;
 text-shadow: 1px 1px 2px lightslategrey;
 padding-right:10px;
@@ -48,7 +48,7 @@ font: sans-serif;
 color: lightslategrey;
 }
 table{
-	border: 1px double ;
+	border: 1px  ;
 	border-color: darkolivegreen;
 	margin: auto; /* automatically centers content on the screen or whatever it is inside of.
 								ex: a div*/
@@ -57,15 +57,14 @@ table{
 	color: rgb(71, 71, 71);
 }
 td{
-	border: 1px double ;
+	border: 1px  ;
 	border-color: darkolivegreen;
 	color: rgb(71, 71, 71);
 	background-color: rgb(230,230,250);
 }
 th{
-	border: 1px double ;
+	border: 1px  ;
 	border-color: darkolivegreen;
-	border: 3px double ;
 	background-color: rgb(230,230,250);
 	color: rgb(71, 71, 71);
 }
@@ -87,7 +86,7 @@ a{
 	background: radial-gradient(floralwhite,thistle);
 	border-radius: 0px 25px 0px 25px;
 	color: rgb(71, 71, 71);;
-	border: 10px double ;
+	border: 10px  ;
 	border-color: darkolivegreen;
 	padding-right:10px;
 	padding-left:10px;
@@ -106,7 +105,7 @@ a{
 	animation: five_color 3s linear infinite;
 	border-radius: 0px 25px 0px 25px;
 	color: rgb(71, 71, 71);;
-	border: 10px double ;
+	border: 10px  ;
 	border-color: darkolivegreen;
 	padding-right:10px;
 	padding-left:10px;
